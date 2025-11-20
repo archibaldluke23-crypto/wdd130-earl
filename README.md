@@ -1,2 +1,6 @@
 # wdd130-earl
-My site for Spencer Earl
+My web address is https://archibaldluke23-crypto.github.io/wdd130-earl/
+
+My Jr. developers are
+- Tristan Zatylny
+- Quinn Anderson
