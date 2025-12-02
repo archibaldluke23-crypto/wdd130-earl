@@ -1,0 +1,17 @@
+/* 
+Colors:
+Primary (purple) #3C2A6F 
+Secondary (cyan) #56A8A4 
+Accent 1 (yellow) #C8A359 
+Accent 2 (light purple) #8C6AA1 
+*/
+
+
+#top {
+
+    background-color: #3C2A6F;
+}
+#top img {
+    width: 200px;
+    border-radius: 100%;
+}
