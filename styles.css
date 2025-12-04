@@ -104,4 +104,5 @@ footer {
     height: 300px;
     margin: 50px;
     border: solid #3C2A6F 5px;
+    object-fit: cover;
 }
