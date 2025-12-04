@@ -62,7 +62,7 @@ nav {
 nav a, footer a{
     color: white;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.7em;
     align-self: center;
     font-family: "comfortaa-regular";
 
@@ -90,7 +90,7 @@ footer {
 /*artworks page*/
 
 #artworks_page h1 {
-    font-size: 5em;
+    font-size: 4em;
     background-color: #C8A359;
 
     width: 90%;
@@ -106,9 +106,9 @@ footer {
     margin-top: 0;
 }
 .art-grid img {
-    width: 300px;
-    height: 300px;
-    margin: 100px;
+    width: 250px;
+    height: 250px;
+    margin: 80px;
     border: solid #3C2A6F 5px;
     object-fit: cover;
 }
