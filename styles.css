@@ -1,17 +1,107 @@
+@font-face {
+    font-family: "milven";
+    src: url("fonts/milven/Milven-Regular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "comfortaa-regular";
+    src: url("fonts/Comfortaa-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 /* 
 Colors:
 Primary (purple) #3C2A6F 
 Secondary (cyan) #56A8A4 
 Accent 1 (yellow) #C8A359 
 Accent 2 (light purple) #8C6AA1 
+
+fonts: 
+headings- font-family: "milven";
+paragraphs- font-family: "comfortaa-regular";
 */
 
-
+/*header and footer*/
+* {
+    text-align: center;
+}
+h1 {
+    font-family: "milven";
+}
+p {
+    font-family: "comfortaa-regular";
+}
 #top {
 
+    height: 150px;
     background-color: #3C2A6F;
+    color: white;
 }
 #top img {
-    width: 200px;
+    height: 95%;
     border-radius: 100%;
+    float: left;
+    margin-top: 3px;
+}
+#top h1 {
+    padding-top: 30px;
+    justify-self: center;
+    font-size: 4em;
+}
+nav {
+    background-color: #8C6AA1;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+nav a, footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    align-self: center;
+    font-family: "comfortaa-regular";
+
+}
+nav a:hover, footer a:hover {
+    color: #3C2A6F;
+}
+footer {
+    background-color: #8C6AA1;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*home page*/
+
+#home_page {
+    font-size: 2em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*artworks page*/
+
+#artworks_page h1 {
+    font-size: 5em;
+    background-color: #C8A359;
+
+    width: 90%;
+    justify-self: center;
+    margin: 30px;
+}
+.art-grid {
+    width: 90%;
+    background-color: #56A8A4;
+
+    justify-self: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.art-grid img {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border: solid #3C2A6F 5px;
 }
