@@ -141,3 +141,60 @@ footer {
 .product-grid a:hover {
     color: white;
 }
+
+/* portrait grid */
+.photo-grid {
+    width: 90%;
+    background-color: #56A8A4;
+    justify-self: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo-grid img {
+    width: 300px;
+    height: 300px;
+    border: solid #3C2A6F 5px;
+    object-fit: cover;
+}
+
+.photo-grid a {
+    font-size: 1.5em;
+    color: #3C2A6F;
+}
+
+.photo-grid a:hover {
+    color: white;
+}
+
+/* photographs page */
+.box-container {
+    width: 90%;
+    background-color: #C8A359;
+    justify-self: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;   /* 👈 one column only */
+    gap: 20px;
+    padding: 20px;
+}
+.box {
+    border: solid #3C2A6F 5px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+.box a {
+    color: #3C2A6F;
+    text-decoration: none;
+}
+.box a:hover {
+    color: white;
+}
