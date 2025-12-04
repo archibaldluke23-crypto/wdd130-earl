@@ -37,6 +37,8 @@ p {
     height: 150px;
     background-color: #3C2A6F;
     color: white;
+    width: 90%;
+    justify-self: center;
 }
 #top img {
     height: 95%;
@@ -51,6 +53,8 @@ p {
 }
 nav {
     background-color: #8C6AA1;
+    width: 90%;
+    justify-self: center;
     height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -68,6 +72,8 @@ nav a:hover, footer a:hover {
 }
 footer {
     background-color: #8C6AA1;
+    width: 90%;
+    justify-self: center;
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -102,7 +108,7 @@ footer {
 .art-grid img {
     width: 300px;
     height: 300px;
-    margin: 50px;
+    margin: 100px;
     border: solid #3C2A6F 5px;
     object-fit: cover;
 }
