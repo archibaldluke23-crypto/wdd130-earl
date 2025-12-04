@@ -29,7 +29,7 @@ paragraphs- font-family: "comfortaa-regular";
 h1 {
     font-family: "milven";
 }
-p {
+p, a {
     font-family: "comfortaa-regular";
 }
 #top {
@@ -131,4 +131,13 @@ footer {
     height: 300px;
     border: solid #3C2A6F 5px;
     object-fit: cover;
+}
+
+.product-grid a {
+    font-size: 1.5em;
+    color: #3C2A6F;
+}
+
+.product-grid a:hover {
+    color: white;
 }
