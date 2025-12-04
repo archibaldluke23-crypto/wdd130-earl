@@ -106,3 +106,23 @@ footer {
     border: solid #3C2A6F 5px;
     object-fit: cover;
 }
+
+/* product grid */
+.product-grid {
+    width: 90%;
+    background-color: #C8A359;
+    justify-self: center;
+    margin-bottom: 30px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-grid img {
+    width: 300px;
+    height: 300px;
+    border: solid #3C2A6F 5px;
+    object-fit: cover;
+}
